@@ -1,5 +1,5 @@
 # LearnStroustrupCPlusPlus
-#Do you need install fltk library.
+#You need to install fltk library.
 #fltkd.lib
 #fltkimagesd.lib
 #fltkformsd.lib
