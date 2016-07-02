@@ -1,7 +1,28 @@
-﻿LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
+﻿  Learning.cpp
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(107): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(112): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(117): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(58): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(59): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(453): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(472): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(478): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(483): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(488): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(514): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(515): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(516): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(517): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Window.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Window.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(138): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(138): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(97): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)"
+  c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(99): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>"
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
   Создание кода
   0 of 520 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     23 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
-  Lesson13-1.vcxproj -> C:\Users\Megtev\Documents\Visual Studio 2015\Projects\Lesson13-1\Release\Lesson13-1.exe
+  Lesson13-1.vcxproj -> C:\Users\Megtev\Documents\Visual Studio 2015\Projects\LearnStroustrupCPlusPlus\Release\Lesson13-1.exe

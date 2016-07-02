@@ -7,7 +7,7 @@
 #include "Stroustrup\Graph.cpp"
 #include "Stroustrup\Window.cpp"
 #include "Stroustrup\std_lib_facilities.h"
-
+//cl
 namespace Graph_lib {
 	class Smiley : public Circle {
 	public:
