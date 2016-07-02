@@ -1,0 +1,7 @@
+﻿LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
+  Создание кода
+  0 of 520 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    23 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lesson13-1.vcxproj -> C:\Users\Megtev\Documents\Visual Studio 2015\Projects\Lesson13-1\Release\Lesson13-1.exe

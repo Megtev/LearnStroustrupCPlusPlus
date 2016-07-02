@@ -1,0 +1,12 @@
+﻿  1.cpp
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\gui.h(107): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\gui.h(112): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\gui.h(117): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\window.cpp(59): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\window.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\graph.h(138): warning C4018: <: несоответствие типов со знаком и без знака
+  e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\graph.h(138): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\gui.h(97): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)"
+  e:\programsfiles\microsoft visual studio 14.0\vc\include\stroustrup\gui.h(99): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>"
+1.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall Graph_lib::Shape::draw(void)const " (?draw@Shape@Graph_lib@@QBEXXZ) в функции "protected: virtual void __thiscall Graph_lib::Window::draw(void)" (?draw@Window@Graph_lib@@MAEXXZ)
+C:\Users\Megtev\Documents\Visual Studio 2015\Projects\Lesson13-1\Debug\Lesson13-1.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
