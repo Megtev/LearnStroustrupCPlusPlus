@@ -487,7 +487,7 @@ struct Bad_image : Fl_Image {
         vector<Graph_lib::Point> directions;
 	};
 
-	struct Frowny : Circle {          //Lesson 14 Task 1
+	struct Frowny : Circle {          //Lesson 14 Task 1A
 		Frowny(Point p, int r)
 			:Circle(p, r), _r(r) {
 			add(Point(p.x - r / 2, p.y - r / 2));
@@ -497,6 +497,15 @@ struct Bad_image : Fl_Image {
 	private:
 		int _r;
 	};
+
+    class Smiley : public Circle {      //Lesson 14 Task 1B
+	public:
+		Smiley(Point p, int r);
+		void draw_lines() const;
+	private:
+		int _r;
+	};
+
 
 } // of namespace Graph_lib
 

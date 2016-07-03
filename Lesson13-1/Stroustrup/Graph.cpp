@@ -572,4 +572,25 @@ void Image::draw_lines() const
 			fl_arc(point(2).x, point(2).y, (_r + _r) / 4, (_r + _r) / 4, 0, 360);
 		}
 	}
+
+	Smiley::Smiley(Point p, int r)
+		:Circle(p, r), _r(r) {
+		add(Point(p.x - _r +_r / 2, p.y - _r + r / 2));
+	}
+
+	void Smiley::draw_lines() const {
+		fl_color(219, 112, 147);
+		fl_pie(point(0).x, point(0).y, _r + _r, _r + _r, 0, 360);
+
+		fl_color(Fl_Color(FL_BLACK));
+		fl_arc(point(0).x, point(0).y, _r + _r, _r + _r, 0, 360);
+
+
+		fl_color(Fl_Color(FL_RED));
+		fl_pie(point(1).x, point(1).y, _r, _r + _r, 0, 360);
+
+		fl_color(Fl_Color(FL_BLACK));
+		fl_arc(point(1).x, point(1).y, _r, _r + _r, 135, 405);
+	}
+	
 }
