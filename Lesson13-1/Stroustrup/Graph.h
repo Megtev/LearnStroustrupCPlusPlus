@@ -5,7 +5,7 @@
    Walter C. Daugherity		January 9, 2014
    Walter C. Daugherity		January 20, 2014
    Walter C. Daugherity		March 3, 2014
-   Megtev			July 5, 2016
+   Megtev					July 5, 2016
 */
 
 //
@@ -527,6 +527,22 @@ struct Bad_image : Fl_Image {
 	private:
 		int h;    // height
 		int w;    // width
+	};
+
+	struct Striped_circle : Shape {				//Lesson 14 Task 6
+		Striped_circle(Point p, int rr)	// center and radius
+			:r(rr) {
+			add(Point(p.x - r, p.y - r));
+		}
+
+		void draw_lines() const;
+
+		Point center() const;
+
+		void set_radius(int rr) { set_point(0, Point(center().x - rr, center().y - rr)); r = rr; }
+		int radius() const { return r; }
+	private:
+		int r;
 	};
 
 } // of namespace Graph_lib

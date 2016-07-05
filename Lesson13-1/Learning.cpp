@@ -8,16 +8,16 @@
 #include "Stroustrup\Window.cpp"
 #include "Stroustrup\std_lib_facilities.h"
 
-/*
-namespace Graph_lib {	
-}
-*/
+
+/*namespace Graph_lib {
+*/}
+
 
 int main() {
 	Point t1(100, 100);
-	Simple_window win(t1, 1000, 800, "Window");
-	Graph_lib::Striped_rectangle rec(Point(200, 100), Point(700, 300));
-	rec.set_fill_color(Color(Color::red));
+	Simple_window win(t1, 1000, 1000, "Window");
+	Graph_lib::Striped_circle rec(Point(402, 402), 20);
+	rec.set_fill_color(Color::red);
 	win.attach(rec);
 
 	win.wait_for_button();

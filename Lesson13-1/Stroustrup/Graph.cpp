@@ -612,4 +612,33 @@ void Image::draw_lines() const
 			fl_rect(point(0).x, point(0).y, w, h);
 		}
 	}
+
+	void Striped_circle::draw_lines() const			//Lesson 14 Task 6
+	{
+		if (fill_color().visibility()) {    // fill
+			fl_color(fill_color().as_int());
+			int x = 2;
+			while (true) {
+				if (point(0).y + x >= point(0).y + r + r)
+					break;
+				if (x > r * 1.5) {
+					if (x > r * 1.95)
+						fl_line(point(0).x + r - sqrt(r * r - abs(r - x) * abs(r - x)) + 6, point(0).y + x, point(0).x + r + sqrt(r * r - abs(r - x) * abs(r - x)) - 6, point(0).y + x);
+					else if (x > r * 1.9)
+						fl_line(point(0).x + r - sqrt(r * r - abs(r - x) * abs(r - x)) + 4, point(0).y + x, point(0).x + r + sqrt(r * r - abs(r - x) * abs(r - x)) - 4, point(0).y + x);
+					else
+						fl_line(point(0).x + r - sqrt(r * r - abs(r - x) * abs(r - x)) + 2, point(0).y + x, point(0).x + r + sqrt(r * r - abs(r - x) * abs(r - x)) - 2, point(0).y + x);
+				}
+				else
+					fl_line(point(0).x + r - sqrt(r * r - abs(r - x) * abs(r - x)) + 1, point(0).y + x, point(0).x + r + sqrt(r * r - abs(r - x) * abs(r - x)) - 1, point(0).y + x);
+				x += 2;
+			}
+			fl_color(color().as_int());    // reset color
+		}
+
+		if (color().visibility()) {
+			fl_color(color().as_int());
+			fl_arc(point(0).x, point(0).y, r + r, r + r, 0, 360);
+		}
+	}
 }

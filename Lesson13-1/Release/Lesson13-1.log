@@ -13,15 +13,19 @@ c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\l
 c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(515): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
 c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(516): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
 c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(517): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(626): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(628): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(630): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Graph.cpp(633): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
 c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Window.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
 c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\Stroustrup\Window.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
-c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(138): warning C4018: <: несоответствие типов со знаком и без знака
-  c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(138): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(139): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\Graph.h(139): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
   c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(97): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>::~Vector_ref(void)"
   c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(99): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>"
 LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
   Создание кода
-  0 of 525 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  1 of 523 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
