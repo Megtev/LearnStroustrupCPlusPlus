@@ -612,4 +612,4 @@ void Image::draw_lines() const
 			fl_rect(point(0).x, point(0).y, w, h);
 		}
 	}
-}
+} //Illia
