@@ -9,6 +9,28 @@
 #include "Stroustrup\std_lib_facilities.h"
 
 /*namespace Graph_lib {
+struct Striped_rectangle : Shape {
+
+    Striped_rectangle(Point xy, int ww, int hh) : h(hh), w(ww)
+    {
+        add(xy);
+        if (h<=0 || w<=0) error("Bad rectangle: non-positive side");
+    }
+
+    Striped_rectangle(Point x, Point y) : h(y.y-x.y), w(y.x-x.x)
+    {
+        add(x);
+        if (h<=0 || w<=0) error("Bad rectangle: non-positive width or height");
+    }
+    void draw_lines() const;
+
+    int height() const { return h; }
+    int width() const { return w; }
+private:
+    int h;    // height
+    int w;    // width
+};
+
 void Striped_rectangle::draw_lines() const
     {
     if (fill_color().visibility()) {    // fill
