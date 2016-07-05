@@ -592,5 +592,24 @@ void Image::draw_lines() const
 		fl_color(Fl_Color(FL_BLACK));
 		fl_arc(point(1).x, point(1).y, _r, _r + _r, 135, 405);
 	}
-	
+
+	void Striped_rectangle::draw_lines() const		//Lesson 14 Task 5
+	{
+		if (fill_color().visibility()) {    // fill
+			fl_color(fill_color().as_int());
+			int x = 2;
+			while (true) {
+				if (point(0).y + x >= point(0).y + h)
+					break;
+				fl_line(point(0).x, point(0).y + x, point(0).x + w - 1, point(0).y + x);
+				x += 2;
+			}
+			fl_color(color().as_int());    // reset color
+		}
+
+		if (color().visibility()) {    // edge on top of fill
+			fl_color(color().as_int());
+			fl_rect(point(0).x, point(0).y, w, h);
+		}
+	}
 }

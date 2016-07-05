@@ -506,6 +506,27 @@ struct Bad_image : Fl_Image {
 		int _r;
 	};
 
+	struct Striped_rectangle : Shape {		//Lesson 14 Task 5
+
+		Striped_rectangle(Point xy, int ww, int hh) : h(hh), w(ww)
+		{
+			add(xy);
+			if (h <= 0 || w <= 0) error("Bad rectangle: non-positive side");
+		}
+
+		Striped_rectangle(Point x, Point y) : h(y.y - x.y), w(y.x - x.x)
+		{
+			add(x);
+			if (h <= 0 || w <= 0) error("Bad rectangle: non-positive width or height");
+		}
+		void draw_lines() const;
+
+		int height() const { return h; }
+		int width() const { return w; }
+	private:
+		int h;    // height
+		int w;    // width
+	};
 
 } // of namespace Graph_lib
 

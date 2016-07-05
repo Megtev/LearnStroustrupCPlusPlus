@@ -21,7 +21,7 @@ c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\l
   c:\users\megtev\documents\visual studio 2015\projects\learnstroustrupcplusplus\lesson13-1\stroustrup\GUI.h(99): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Graph_lib::Vector_ref<Graph_lib::Button>"
 LINK : warning LNK4098: библиотека по умолчанию "MSVCRTD" противоречит использованию других библиотек; используйте параметр /NODEFAULTLIB:library
   Создание кода
-  1 of 524 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  0 of 525 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
